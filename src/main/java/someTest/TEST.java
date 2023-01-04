@@ -1,9 +1,11 @@
 package someTest;
 
 import config.BaseClass;
+import org.junit.Test;
 
 public class TEST extends BaseClass {
-    public static void main(String[] args) {
+    @Test
+    public void test11() {
         driver.get("https://google.com");
     }
 }
