@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c8369c1-9a7f-492e-a0e5-67c565dbba0b" name="Changes" comment="firstcommit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/someTest/TestPracticeForm.java" afterDir="false" />
+    <list default="true" id="3c8369c1-9a7f-492e-a0e5-67c565dbba0b" name="Changes" comment="commit folder TestPracticeForm home work 10">
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageObjects/PracticeForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageObjects/PracticeFormPageFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data/DataProviderUsers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/someTest/PracticeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/someTest/PracticeTestFabric.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/config/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/BaseClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/someTest/JunitTestWithDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/someTest/JunitTestWithDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/someTest/TEST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/someTest/TEST.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +49,8 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.TestPracticeForm">
-    <configuration name="JunitTestWithDriver" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PracticeTestFabric">
+    <configuration name="PracticeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Junit26" />
       <extension name="coverage">
         <pattern>
@@ -57,13 +59,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="someTest" />
-      <option name="MAIN_CLASS_NAME" value="someTest.JunitTestWithDriver" />
+      <option name="MAIN_CLASS_NAME" value="someTest.PracticeTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JunitTestWithDriver.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PracticeTestFabric" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Junit26" />
       <extension name="coverage">
         <pattern>
@@ -72,14 +74,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="someTest" />
-      <option name="MAIN_CLASS_NAME" value="someTest.JunitTestWithDriver" />
+      <option name="MAIN_CLASS_NAME" value="someTest.PracticeTestFabric" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PracticeTestFabric.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Junit26" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="someTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="someTest" />
+      <option name="MAIN_CLASS_NAME" value="someTest.PracticeTestFabric" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JunitTestWithDriver.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PracticeTestFabric.tset1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Junit26" />
       <extension name="coverage">
         <pattern>
@@ -88,14 +105,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="someTest" />
-      <option name="MAIN_CLASS_NAME" value="someTest.JunitTestWithDriver" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="MAIN_CLASS_NAME" value="someTest.PracticeTestFabric" />
+      <option name="METHOD_NAME" value="tset1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TEST" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PracticeTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Junit26" />
       <extension name="coverage">
         <pattern>
@@ -104,34 +121,20 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="someTest" />
-      <option name="MAIN_CLASS_NAME" value="someTest.TEST" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestPracticeForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Junit26" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="someTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="someTest" />
-      <option name="MAIN_CLASS_NAME" value="someTest.TestPracticeForm" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="someTest.PracticeTest" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestPracticeForm" />
-        <item itemvalue="JUnit.TEST" />
-        <item itemvalue="JUnit.JunitTestWithDriver" />
-        <item itemvalue="JUnit.JunitTestWithDriver.test1" />
-        <item itemvalue="JUnit.JunitTestWithDriver.test2" />
+        <item itemvalue="JUnit.PracticeTestFabric" />
+        <item itemvalue="JUnit.PracticeTestFabric.test1" />
+        <item itemvalue="JUnit.PracticeTestFabric.tset1" />
+        <item itemvalue="JUnit.PracticeTest" />
+        <item itemvalue="JUnit.PracticeTest.test4" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672867599599</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit folder TestPracticeForm home work 10">
+      <created>1672875062595</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672875062596</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,7 +177,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="firstcommit" />
-    <option name="LAST_COMMIT_MESSAGE" value="firstcommit" />
+    <MESSAGE value="commit folder TestPracticeForm home work 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit folder TestPracticeForm home work 10" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
