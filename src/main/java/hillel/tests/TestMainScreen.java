@@ -42,7 +42,12 @@ public class TestMainScreen  extends BaseClass {
             throw new Exception("Url not equals, actual : "+driver.getCurrentUrl());
 
         }
+    }
+    @Test
+    public void VukladachTest2(){
+
+    }
 
 
     }
-}
+

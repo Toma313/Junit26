@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c8369c1-9a7f-492e-a0e5-67c565dbba0b" name="Changes" comment="commit 13 lecture">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hillel/pageobject/IndexPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hillel/tests/TestMainScreen.java" afterDir="false" />
+    <list default="true" id="3c8369c1-9a7f-492e-a0e5-67c565dbba0b" name="Changes" comment="commit 55 min lecture">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageObjects/PaternPageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageObjects/PatternPageFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Util/Scrolling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hillel/pageobject/BlogPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hillel/pageobject/VukladachPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hillel/tests/TestBlogPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hillel/tests/TestVukladachPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/someTest/SomeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/someTest/JunitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hillel/pageobject/IndexPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hillel/pageobject/IndexPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hillel/tests/TestMainScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hillel/tests/TestMainScreen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,64 +53,33 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.TestMainScreen">
-    <configuration name="PracticeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestVukladachPage">
+    <configuration name="TestBlogPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Junit26" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="someTest.*" />
+          <option name="PATTERN" value="hillel.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="someTest" />
-      <option name="MAIN_CLASS_NAME" value="someTest.PracticeTest" />
+      <option name="PACKAGE_NAME" value="hillel.tests" />
+      <option name="MAIN_CLASS_NAME" value="hillel.tests.TestBlogPage" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracticeTestFabric" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestBlogPage.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Junit26" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="someTest.*" />
+          <option name="PATTERN" value="hillel.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="someTest" />
-      <option name="MAIN_CLASS_NAME" value="someTest.PracticeTestFabric" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PracticeTestFabric.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Junit26" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="someTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="someTest" />
-      <option name="MAIN_CLASS_NAME" value="someTest.PracticeTestFabric" />
+      <option name="PACKAGE_NAME" value="hillel.tests" />
+      <option name="MAIN_CLASS_NAME" value="hillel.tests.TestBlogPage" />
       <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PracticeTestFabric.tset1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Junit26" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="someTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="someTest" />
-      <option name="MAIN_CLASS_NAME" value="someTest.PracticeTestFabric" />
-      <option name="METHOD_NAME" value="tset1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,13 +100,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestVukladachPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Junit26" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hillel.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hillel.tests" />
+      <option name="MAIN_CLASS_NAME" value="hillel.tests.TestVukladachPage" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestVukladachPage.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Junit26" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hillel.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hillel.tests" />
+      <option name="MAIN_CLASS_NAME" value="hillel.tests.TestVukladachPage" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestVukladachPage" />
+        <item itemvalue="JUnit.TestVukladachPage.test1" />
         <item itemvalue="JUnit.TestMainScreen" />
-        <item itemvalue="JUnit.PracticeTestFabric" />
-        <item itemvalue="JUnit.PracticeTestFabric.test1" />
-        <item itemvalue="JUnit.PracticeTestFabric.tset1" />
-        <item itemvalue="JUnit.PracticeTest" />
+        <item itemvalue="JUnit.TestBlogPage" />
+        <item itemvalue="JUnit.TestBlogPage.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673218011153</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit 55 min lecture">
+      <created>1673392414022</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673392414022</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -181,7 +196,8 @@
     <MESSAGE value="firstcommit" />
     <MESSAGE value="commit folder TestPracticeForm home work 10" />
     <MESSAGE value="commit 13 lecture" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 13 lecture" />
+    <MESSAGE value="commit 55 min lecture" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 55 min lecture" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
