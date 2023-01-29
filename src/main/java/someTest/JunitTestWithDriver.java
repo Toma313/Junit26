@@ -4,6 +4,7 @@ import config.BaseClass;
 import config.Browsers;
 import config.DriverConfig;
 import org.junit.AfterClass;
+import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -23,19 +24,15 @@ public class JunitTestWithDriver  extends BaseClass {
     }
 
     @Test
-    public void test1(){
-        if("YouTube".equals((driver.getTitle()))){
-            System.out.println("OK "+driver.getTitle());
-        }
-        else{
-            System.out.println("Error "+driver.getTitle());
-        }
+    public void test1() throws Exception {
+        Assert.assertEquals("YouTube", driver.getTitle());
     }
     @Test
     public void test2() throws InterruptedException {
         Thread.sleep(2000);
-        driver.findElement(By.xpath("//*[@id=\"content\"]/div[2]/div[6]/div[1]/ytd-button-renderer[2]/yt-button-shape/button/yt-touch-feedback-shape/div/div[2]")).click();
+        //WebElement okButton = new driver.findElement(By.xpath("//*[@id=\"content\"]/div[2]/div[6]/div[1]/ytd-button-renderer[2]/yt-button-shape/button/yt-touch-feedback-shape/div/div[2]")).click();
         Thread.sleep(2000);
+
         WebElement inputElement =driver.findElement(inputYoutube);
         inputElement.sendKeys("Ukraine");
         inputElement.sendKeys(Keys.ENTER);

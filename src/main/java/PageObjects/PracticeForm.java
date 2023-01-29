@@ -13,6 +13,7 @@ public class PracticeForm {
     By emailAddress = By.id("userEmail");
     By genderWrapper = By.id("genterWrapper");
     By userNumber=By.id("userNumber");
+    By buttonPIC = By.xpath("//*[@id=\"uploadPicture\"]");
 
     public PracticeForm(WebDriver driver){
         this.driver = driver;
@@ -44,6 +45,8 @@ public class PracticeForm {
         changeGender(us.getGender());
         driver.findElement(userNumber).sendKeys(us.getTelephone());
     }
-
+    public boolean isButtonEnabled(){
+        return driver.findElement(buttonPIC).isEnabled();
+    }
 
 }

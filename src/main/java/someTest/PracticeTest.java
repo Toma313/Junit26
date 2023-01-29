@@ -4,10 +4,10 @@ import PageObjects.PracticeForm;
 import config.BaseClass;
 import data.DataProviderUsers;
 import data.User;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import org.junit.*;
+
+import static org.junit.Assert.*;
+import static Util.Scrolling.*;
 
 public class PracticeTest extends BaseClass {
     static PracticeForm practiceForm;
@@ -36,6 +36,14 @@ public class PracticeTest extends BaseClass {
     @Test
     public void test4(){
         practiceForm.completeForm(DataProviderUsers.getValidUser());
+        System.out.println(new User());
     }
+    String URL = "https://...";
+    @Test
+    public void test5(){
+        //assertTrue("Button not enabled", !practiceForm.isButtonEnabled());
+        assertEquals("URL not equels", URL, driver.getCurrentUrl());
+    }
+
 
 }

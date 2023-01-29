@@ -1,7 +1,8 @@
-package PageObjects;
+package example;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public class PaternPageObject {
     private WebDriver driver;
@@ -10,7 +11,17 @@ public class PaternPageObject {
     public PaternPageObject(WebDriver webDriver){
         this.driver=webDriver;
     }
+
     public String getCourseTitle(){
-        return driver.findElement(someName).getText();
+        String str;
+        someMethodPrivate();
+        WebElement element1 = driver.findElement(someName);
+        str = element1.getText();
+        return  str;
     }
+
+    private void someMethodPrivate() {
+    }
+
+
 }
